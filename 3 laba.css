@@ -1,0 +1,161 @@
+   body{
+  background-color:black;
+  }
+  
+  .main {
+  width: 100%;
+  height: 82%;
+  background: linear-gradient(to top, #696969,#DCDCDC);
+  border-radius: 0px 0px 30px 30px;
+  }
+  
+  .block1{
+  transform: skew(150deg, 0);
+  background: #DCDCDC;
+  width: 90%;
+  height:10%;
+  z-index:3;
+  margin-left:20%;
+  }
+  
+  .block2{
+  width: 97%;
+  height: 100%;
+  box-sizing: border-box;
+  background: black;
+  position: absolute;
+  z-index:-2;
+  overflow:hidden;
+  margin-left:1%;
+  margin-top:1%;
+  }
+  
+  .block3{ 
+   position: absolute;
+   background: transparent; 
+   margin-left:280px;
+   margin-top:180px;
+   width: 730px;
+   height:200px;
+   overflow:hidden;
+   }
+   
+  .text1{
+  margin-top:-430px;
+  color:#FFFFFF;
+  font-family: Andale Mono, monospace;
+  font-size: 40px;
+  font-weight: bold;
+  position:absolute;
+  left:60px;
+  top:435px;
+  }
+  
+  .text2{
+	position:absolute;
+	margin-top:5%;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+    font-weight: bold;
+    color: 	#000000;
+	font-size: 19px;
+	font-weight:bold;
+	top:30px;
+	left:60px;
+	right:60px;
+	}
+	
+	table {
+    position:absolute;
+    background:transparent;
+    padding: 2px;
+    border: 5px;
+    z-index: 3;
+    width: 710px;
+	height: 100px;
+	}
+	
+	td, th {
+    border: 3px solid #333333; 
+    padding: 5px; 
+	height: 40px;
+	width: 90px;
+	position: relative;
+	outline: 0;
+	} 
+	
+	tbody tr:hover { 
+	background-color:#F5F5F5;
+    color: black; 
+   }
+   
+   .moon{
+      width: 160px;
+      height: 160px;
+	   display: block;
+      background: #000000;
+      border-radius: 50%;
+	  position: absolute;
+	  left: 350px;
+	  margin-top: 380px;
+	  z-index: 0;
+   }
+   .moon1{
+      width: 160px;
+      height: 160px;
+	   display: block;
+      background: #C0C0C0;
+      border-radius: 50%;
+	  position: absolute;
+	  left: 510px;
+	  margin-top: 380px;
+	  z-index: 0;
+   }
+   .moon2{
+      width: 160px;
+	   display: block;
+      height: 160px;
+      background: #000000;
+      border-radius: 50%;
+	  position: absolute;
+	  left: 670px;
+	  margin-top: 380px;
+	  z-index: 0;
+   }
+	
+	#blink {
+  -webkit-animation: blink 2s linear infinite;
+  animation: blink 2s linear infinite;
+  position:absolute;
+  color:#778899;
+  margin-left:490px;
+  margin-top:425px;
+  font-size:62px;
+  z-index:4;
+  }
+  
+  @-webkit-keyframes blink {
+  50% { color: #2F4F4F; };
+  70% { color: #FFFFFF; };
+  100% { color:#DCDCDC; };
+  }
+  
+	   .image {
+	  position: fixed;
+	  top: 25px;
+	  left: 1100px;
+	  }
+	/*th:hover::after { 
+	position: absolute; 
+    background-color:#F5F5F5;
+    content: '';  
+    height: 100%;    
+    left: 0; 
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+	}
+	
+	<svg width="140" height="140">
+     <circle r="65" cx="70" cy="70"
+             fill="orangered" stroke="crimson" stroke-width="5" />
+			 </svg>*/

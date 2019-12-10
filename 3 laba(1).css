@@ -1,0 +1,140 @@
+body {
+	background-color:black;
+	margin: -20px 0 0 20px;
+} 
+
+#block1 {
+	position: relative;
+	z-index: 1;
+	top: 15px;
+	left: 18px;
+	margin: -90px 0 0 0;
+    width: 250px;
+	height: 95px;
+    padding: 10px 15px 10px 15px;
+	background: #D3D3D3;
+    border-radius: 12px 12px 0 0;
+    box-shadow: -4px 10px 12px 0px #a3a4a8;
+}
+   .text1{
+  margin-top:-430px;
+  color:#FFFFFF;
+  font-family: Andale Mono, monospace;
+  font-size: 40px;
+  font-weight: bold;
+  position:absolute;
+  left:95px;
+  top:460px;
+  }
+  
+  .img{
+	width: 895px;
+	height: 100px;
+  }
+  
+  #block2 {
+	position: relative;
+	z-index: 2;
+	width: 900px;
+	top: 40px;
+	margin: 20px 0 0 300px;
+	border-radius: 12px 12px 12px 12px;
+    box-shadow: 0 -9px 9px 1px #a3a4a8;
+}
+
+section {
+	position: relative;
+	z-index: 1;
+	background-color:transparent; 
+	padding: 10px;
+	height: 1000px;
+    width: 1160px;
+	top: 10px;
+	left: 18px;
+    border-radius: 0 12px 12px 12px;
+    box-shadow: -4px 11px 9px 2px #a3a4a8, 4px 11px 9px 2px #a3a4a8;
+    background: radial-gradient(circle closest-side, #696969, #D3D3D3);
+}
+
+table {
+    position:absolute;
+    background:transparent;
+    padding: 2px;
+    border: 5px;
+    z-index: 3;
+    width: 1100px; 
+	height: 300px;
+	left: 40px;
+	}
+		
+	td{
+    border: 3px solid #333333; 
+    padding: 2px; 
+	height: 100px;
+	width: 110px;
+	position: relative;
+	outline: 0;
+	} 
+	
+	th {
+	border: 0px; 
+    padding: 5px; 
+	height: 100px;
+	width: 110px;
+	position: relative;
+	outline: 0;
+	} 
+	
+	tbody tr:hover { 
+	background-color:black;
+    color: white; 
+   }
+   
+   .text2
+   {
+	   text-align: center;
+	   font-weight: bold;
+   }
+   
+   .text3
+   {
+	   text-align: center;
+   }
+   
+   .text4
+   {
+	   font-size: large;
+	   text-decoration:none;
+	   color: black;
+	   margin:450px; 
+	   font-weight: bold;
+	   font-family: Courier New, monospace;
+   }
+   
+   .text4:hover{
+	   text-decoration:underline;
+   }
+   
+   .maintext{
+	   margin: 5px 40px 0px 50px;
+	   text-align: justify;
+	   font-family: URW Chancery L, cursive;
+   }
+   
+   .maintext::first-letter {
+    font-family: Andale Mono, monospace;
+    font-weight: bold;
+    font-size: 3em;
+    font-style: italic;
+    color: #2F4F4F;
+	}
+	
+	
+	.maintext:before {}
+	
+   p:after { 
+   content:url(file:///C:/Users/sz/Desktop/3%20%D0%BA%D1%83%D1%80%D1%81/1%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%80/%D0%A1%D0%90%D0%B8%D0%9F%D0%98%D0%A1/3%20laba/272700948.gif);
+   width:20px;
+   height:20px;
+   }
+   
